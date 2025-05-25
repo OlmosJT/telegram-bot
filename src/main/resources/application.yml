@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: alert-manager
+  threads:
+    virtual:
+      enabled: true
+
+logging:
+  level:
+    jt.olmos.alertmanager: DEBUG
+
+telegram:
+  bot:
+    token: 8073952434:AAEJ3-MD-YvjXAvsM9N11B9MCLh74izzqek
+
+prometheus:
+  api:
+    url: http://localhost:9090
+
+
